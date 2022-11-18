@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvPerfil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagenPerrituPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:src="@drawable/rex" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/HuesoLikePerfil"
+                android:layout_width="16dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:src="@drawable/icons8_dog_bone_96" />
+
+            <TextView
+                android:id="@+id/textViewLikesPerfil"
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

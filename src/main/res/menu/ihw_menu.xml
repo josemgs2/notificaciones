@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnSiguiente"
+        android:icon="@drawable/icons8_hotel_96"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        android:title=" " />
+
+    <item
+        android:id="@+id/Contacto"
+        android:orderInCategory="1"
+        android:title="Contacto" />
+    <item
+        android:id="@+id/AcercaDe"
+        android:orderInCategory="2"
+        android:title="Acerca De" />
+
+</menu>
